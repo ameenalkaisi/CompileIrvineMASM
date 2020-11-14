@@ -2,6 +2,7 @@
 Makefile for MASM with Irvine support so you can keep coding in terminal
 
 Initial Setup:
+
 	Install mingw (download MinGW installation manager from: https://osdn.net/projects/mingw/releases/)
 	get package that includes make (mingw32-base-bin from installation manager)
 	add to PATH (C:/MinGW/bin/ <- search "Environmental variables", click Environment Variables, click Path, click Edit, then add the location there or browse to it)
@@ -12,6 +13,7 @@ Initial Setup:
   Note: if copy-pasting makefile, make sure to have spacing set to tabs not to spaces (as make only compiles if its tab spaced)
 
 usage:
+
 	make sure to have makefile in same directory as assembly file
 	run in cmd/powershell at the location: make
   If you want to keep .obj files, delete first $(MAKE) clean-no-exe line under %: %.asm
